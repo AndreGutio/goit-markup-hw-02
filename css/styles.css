@@ -1,5 +1,4 @@
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
 }
 
@@ -67,8 +66,45 @@ body {
 
 /*M-A-I-N*/
 
+.hero {
+  background: #2f303a;
+}
+
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.hero-btn {
+  /*boton*/
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.btn-text {
+  /*boton text*/
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
 .possibility {
-  background: #f5f5f5;
+ 
 }
 
 .possibility-title {
@@ -88,7 +124,7 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  /*color: #212121;*/
 }
 
 .possibility-text {
@@ -102,7 +138,6 @@ body {
 }
 
 .work {
-  background: #f5f5f5;
 }
 
 .work-title {
