@@ -1,5 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
+  font-weight: 400;
 }
 
 .list {
@@ -29,6 +30,10 @@ body {
   color: #2196f3;
 }
 
+.header-nav-logos {
+  color: #000000;
+}
+
 .header-nav-link {
 }
 
@@ -39,7 +44,6 @@ body {
 }
 
 .header-nav-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -55,7 +59,6 @@ body {
 }
 
 .header-tel-email-link {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -71,7 +74,6 @@ body {
 }
 
 .hero-title {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -104,7 +106,6 @@ body {
 }
 
 .possibility {
- 
 }
 
 .possibility-title {
@@ -113,11 +114,10 @@ body {
 .possibility-list {
 }
 
-.possibility-link {
+.possibility-item {
 }
 
-.possibility-item {
-  font-family: "Roboto";
+.possibility-item-title {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
@@ -128,13 +128,14 @@ body {
 }
 
 .possibility-text {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: #757575;
+}
+
+.header-contact-list {
 }
 
 .work {
@@ -168,7 +169,6 @@ body {
 }
 
 .team-item {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -179,9 +179,7 @@ body {
 }
 
 .team-text {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -204,6 +202,10 @@ body {
   color: #2196f3;
 }
 
+.footer-logos {
+  color: #ffffff;
+}
+
 .footer-address-list {
 }
 
@@ -211,9 +213,7 @@ body {
 }
 
 .footer-address-map {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -221,11 +221,66 @@ body {
 }
 
 .footer-address-link {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/*----PORTFOLIO.html----*/
+/*---M-A-I-N-portfolio*/
+
+.cross {
+}
+
+.cross-title {
+}
+
+.cross-list {
+}
+
+.cross-item {
+}
+
+.cross-btn {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26/16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.portfolio {
+}
+
+.portfolio-title {
+}
+
+.portfolio-list {
+}
+
+.portfolio-item {
+}
+
+.portfolio-img {
+}
+
+.portfolio-card-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio-text {
+  font-style: normal;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: #757575;
 }
