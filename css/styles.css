@@ -1,14 +1,19 @@
 :root {
-    --primary-accent-color: #2196f3;
-    --primary-text-color: #757575;
-    --primary-title-color: #212121;
+  --primary-accent-color: #2196f3;
+  --secondary-accent-color: #ffffff;
+  --primary-text-color: #757575;
+  --primary-title-color: #212121;
+  --primary-bg--color: #F5F5F5;
+  --light-bg-color: #F5F4FA;
+  --dark-bg-color: #2F303A;
+
+   
 }
-
-
 
 body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -22,7 +27,7 @@ body {
 /*H-E-A-D-E-R*/
 
 .header {
-  background: white;
+  background: var(--secondary-accent-color);
 }
 
 /*.header-nav {
@@ -77,7 +82,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.header-contact-list .header-contact-link:hover,
+.header-contact-link:hover,
 .header-contact-link:focus {
   color: var(--primary-accent-color);
 }
@@ -85,7 +90,7 @@ body {
 /*M-A-I-N*/
 
 .hero {
-  background: #2f303a;
+  background: var(--dark-bg-color);
 }
 
 .hero-title {
@@ -96,7 +101,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--secondary-accent-color);
 }
 
 .hero-btn {
@@ -104,6 +109,8 @@ body {
   background: var(--primary-accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
 .btn-text {
@@ -117,16 +124,18 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--secondary-accent-color);
 }
 
 /* .possibility {
-}
+}*/
 
 .possibility-title {
+  color: var(--primary-title-color);
+  opacity: 0;
 }
 
-.possibility-list {
+/*.possibility-list {
 }
 
 .possibility-item {
@@ -139,49 +148,49 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  /* color: var(--primary-title-color); */
+  color: var(--primary-title-color);
 }
 
 .possibility-text {
-  font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
-.header-contact-list {
-}
-
-.work {
-}
+/*.work {
+}*/
 
 .work-title {
+color: var(--primary-title-color);
 }
 
-.work-list {
+/*.work-list {
 }
 
 .work-item {
 }
 
 .work-icon {
-}
+} */
 
 .team {
-  background: #f5f4fa;
-}
-.team-title {
+  background: var(--light-bg-color);
 }
 
-.team-list {
+.team-title {
+  color: var(--primary-title-color);
 }
+
+/*.team-list {
+}*/
 
 .team-card {
+background: #ffffff;
 }
 
-.team-icon {
-}
+/*.team-icon {
+} */
 
 .team-item {
   font-style: normal;
@@ -194,7 +203,6 @@ body {
 }
 
 .team-text {
-  font-style: normal;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
@@ -205,7 +213,7 @@ body {
 /*F-O-O-T-E-R*/
 
 .footer {
-  background: #2f303a;
+  background: var(--dark-bg-color);
 }
 .footer-logo {
   font-family: "Raleway";
@@ -218,21 +226,21 @@ body {
 }
 
 .footer-logos {
-  color: #ffffff;
+  color: var(--secondary-accent-color);
 }
 
-.footer-address-list {
+/* .footer-address-list {
 }
 
 .footer-address-item {
-}
+} */
 
 .footer-address-map {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--secondary-accent-color);
 }
 
 .footer-address-link {
@@ -243,20 +251,29 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-address-map:hover,
+.footer-address-map:focus,
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--primary-accent-color);
+}
+
 /*----PORTFOLIO.html----*/
 /*---M-A-I-N-portfolio*/
 
-.cross {
-}
+/* .cross {
+}*/
 
 .cross-title {
+  color: var(--primary-title-color);
+  opacity: 0;
 }
 
-.cross-list {
+/*.cross-list {
 }
 
 .cross-item {
-}
+} */
 
 .cross-btn {
   font-style: normal;
@@ -266,22 +283,36 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--primary-title-color);
+  background-color: var(--light-bg-color);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
 }
 
-.portfolio {
+.cross-btn:hover,
+.cross-btn:focus {
+  color: var(--secondary-accent-color);
+  background-color: var(--primary-accent-color);
+}
+
+ .portfolio {
+ background: var(--primary-bg--color); 
 }
 
 .portfolio-title {
+  color: var(--primary-title-color);
+  opacity: 0;
 }
 
-.portfolio-list {
-}
+/* .portfolio-list {
+} */
 
 .portfolio-item {
+  background: #ffffff;
 }
 
-.portfolio-img {
-}
+/* .portfolio-img {
+} */
 
 .portfolio-card-title {
   font-style: normal;
@@ -293,7 +324,6 @@ body {
 }
 
 .portfolio-text {
-  font-style: normal;
   font-size: 16px;
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
