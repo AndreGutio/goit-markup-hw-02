@@ -52,13 +52,19 @@ body {
   color: #212121;
 }
 
-.header-tel-email-list {
+.header-nav-list 
+.header-nav-link:hover,
+.header-nav-link:focus {
+    color:#2196F3;
 }
 
-.header-tel-email-item {
+.header-contact-list {
 }
 
-.header-tel-email-link {
+.header-contact-item {
+}
+
+.header-contact-link {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -67,6 +73,11 @@ body {
   color: #757575;
 }
 
+.header-contact-list 
+.header-contact-link:hover,
+.header-contact-link:focus {
+    color:#2196F3;
+}
 /*M-A-I-N*/
 
 .hero {
@@ -247,7 +258,7 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: calc(26/16);
+  line-height: calc(26 / 16);
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
