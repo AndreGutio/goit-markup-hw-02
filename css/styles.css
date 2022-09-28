@@ -6,6 +6,7 @@
   --primary-bg--color: #f5f5f5;
   --light-bg-color: #f5f4fa;
   --dark-bg-color: #2f303a;
+  --color-address: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -189,7 +190,6 @@ body {
 
 .team-title {
   font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: cacl(42/36);
@@ -209,7 +209,6 @@ body {
 } */
 
 .team-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
@@ -264,7 +263,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color:var(--color-address);
 }
 
 .footer-address-map:hover,
@@ -293,6 +292,7 @@ body {
 } */
 
 .cross-btn {
+  font-family: inherit;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -302,7 +302,7 @@ body {
   color: var(--primary-title-color);
   background-color: var(--light-bg-color);
   border-radius: 4px;
-  border: none;
+  border-color: transparent;
   cursor: pointer;
 }
 
@@ -313,7 +313,7 @@ body {
 }
 
 .portfolio {
-  background: var(--primary-bg--color);
+  background: white;
 }
 */ .portfolio-title {
   color: var(--primary-title-color);
@@ -331,7 +331,6 @@ body {
 } */
 
 .portfolio-card-title {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
