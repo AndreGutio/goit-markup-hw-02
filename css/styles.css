@@ -60,6 +60,9 @@ body {
   letter-spacing: 0.02em;
   color: var(--primary-title-color);
 }
+.header-nav-list .header-nav-link.current {
+  color: var(--primary-accent-color);
+}
 
 .header-nav-link:hover,
 .header-nav-link:focus {
@@ -135,9 +138,21 @@ body {
 /* .possibility {
 }*/
 
-/*!!!!!!!!!!!!!!!!!!!.possibility-title {
-  color: var(--primary-title-color);
-  opacity: 0;
+/*.possibility-title {
+
+}*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
 }
 
 /*.possibility-list {
